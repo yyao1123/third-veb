@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="刘垚林 - 长春职业技术大学 | 模拟IC版图设计 | 嵌入式系统设计 | 城轨智能运输">
+    <title>刘垚林 - 个人介绍</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 页面加载动画 -->
+    <div class="page-loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-circle"></div>
+            <p>加载中...</p>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">刘垚林</a>
+            <button class="nav-toggle" aria-label="菜单">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">关于我</a></li>
+                <li><a href="#skills" class="nav-link">技能</a></li>
+                <li><a href="#awards" class="nav-link">荣誉</a></li>
+                <li><a href="#hobbies" class="nav-link">爱好</a></li>
+                <li><a href="#contact" class="nav-link">联系</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="hero-avatar clickable" onclick="openLightbox('images/photo.jpg', '刘垚林')">
+                <img src="images/photo.jpg" alt="刘垚林" loading="lazy">
+            </div>
+            <h1 class="hero-name">刘垚林</h1>
+            <p class="hero-title">模拟版图订单班</p>
+            <p class="hero-tagline">长春职业技术大学 | 探索技术，追求卓越</p>
+            <a href="#about" class="hero-btn">了解更多</a>
+        </div>
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,64L48,69.3C96,75,192,85,288,80C384,75,480,53,576,48C672,43,768,53,864,64C960,75,1056,85,1152,80C1248,75,1344,53,1392,42.7L1440,32L1440,120L0,120Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <p>我是刘垚林，来自<strong>长春职业技术大学</strong>。</p>
+                    <p>在校期间，我积极参与各类技能竞赛和志愿服务活动，曾获得<strong>吉林省职业院校技能大赛二等奖</strong>，并在世界职业院校技能大赛中担任志愿者，荣获<strong>"优秀志愿者"</strong>称号。</p>
+                    <p>我持有<strong>中国电子学会嵌入式系统设计工程师（初级）</strong>证书，具备扎实的专业基础和动手能力。我相信技术的力量，致力于将理论知识应用于实际问题的解决中。</p>
+                </div>
+                <div class="about-info">
+                    <div class="info-card fade-in">
+                        <span class="info-icon">🎓</span>
+                        <div>
+                            <h3>学校</h3>
+                            <p>长春职业技术大学</p>
+                        </div>
+                    </div>
+                    <div class="info-card fade-in">
+                        <span class="info-icon">📚</span>
+                        <div>
+                            <h3>专业方向</h3>
+                            <p>模拟IC版图设计 / 嵌入式系统设计 / 城轨智能运输</p>
+                        </div>
+                    </div>
+                    <div class="info-card fade-in">
+                        <span class="info-icon">🏆</span>
+                        <div>
+                            <h3>荣誉</h3>
+                            <p>省赛二等奖 · 优秀志愿者</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">专业技能</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>模拟IC版图设计</h3>
+                        <span class="skill-percent">100%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="100"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>嵌入式系统设计</h3>
+                        <span class="skill-percent">75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="75"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>城轨智能运输</h3>
+                        <span class="skill-percent">70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="70"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>机械设计与制造</h3>
+                        <span class="skill-percent">65%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="65"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>团队协作能力</h3>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>沟通与志愿服务</h3>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="80"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="awards" class="section awards">
+        <div class="container">
+            <h2 class="section-title">荣誉证书</h2>
+            <div class="awards-grid">
+                <div class="award-card">
+                    <div class="award-icon clickable" onclick="openLightbox('images/cert1.jpg', '嵌入式系统设计工程师证书')">🏅</div>
+                    <h3>嵌入式系统设计工程师</h3>
+                    <p class="award-org">中国电子学会</p>
+                    <p class="award-detail">初级 · 2025年8月</p>
+                    <span class="award-badge">专业认证</span>
+                </div>
+                <div class="award-card">
+                    <div class="award-icon clickable" onclick="openLightbox('images/cert2.jpg', '吉林省职业院校技能大赛证书')">🥈</div>
+                    <h3>吉林省职业院校技能大赛</h3>
+                    <p class="award-org">吉林省教育厅</p>
+                    <p class="award-detail">城轨智能运输赛项 · 二等奖 · 2025年9月</p>
+                    <span class="award-badge">省级奖项</span>
+                </div>
+                <div class="award-card">
+                    <div class="award-icon clickable" onclick="openLightbox('images/cert3.jpg', '世界职业院校技能大赛志愿者证书')">🌟</div>
+                    <h3>世界职业院校技能大赛</h3>
+                    <p class="award-org">长春职业技术大学</p>
+                    <p class="award-detail">优秀志愿者 · 2025年12月</p>
+                    <span class="award-badge">志愿服务</span>
+                </div>
+                <div class="award-card">
+                    <div class="award-icon clickable" onclick="openLightbox('images/cert4.jpg', '全国大学生嵌入式芯片与系统设计竞赛证书')">🏆</div>
+                    <h3>全国大学生嵌入式芯片与系统设计竞赛</h3>
+                    <p class="award-org">中国电子教育学会</p>
+                    <p class="award-detail">芯片应用赛道 · 北部赛区二等奖 · 2025年8月</p>
+                    <span class="award-badge">国家级奖项</span>
+                </div>
+                <div class="award-card">
+                    <div class="award-icon clickable" onclick="openLightbox('images/cert5.jpg', '中国国际大学生创新大赛校赛证书')">💡</div>
+                    <h3>中国国际大学生创新大赛</h3>
+                    <p class="award-org">长春职业技术大学</p>
+                    <p class="award-detail">智能底盘控制器 · 校赛三等奖 · 2025年7月</p>
+                    <span class="award-badge">校级奖项</span>
+                </div>
+            </div>
+            <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+                <div class="lightbox-content">
+                    <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+                    <img id="lightbox-img" src="" alt="证书图片">
+                    <p id="lightbox-caption"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies" class="section hobbies">
+        <div class="container">
+            <h2 class="section-title">兴趣爱好</h2>
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <div class="hobby-icon">📖</div>
+                    <h3>阅读技术书籍</h3>
+                    <p>善于学习、沉淀知识</p>
+                    <div class="hobby-tag">近期在看：集成电路工艺资料</div>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon">🏃</div>
+                    <h3>慢跑/健身</h3>
+                    <p>抗压、精力充沛，能接受项目赶工期加班</p>
+                    <div class="hobby-tag">保持高效的工作状态</div>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon">🎧</div>
+                    <h3>行业技术分享</h3>
+                    <p>持续学习行业前沿动态</p>
+                    <div class="hobby-tag">近期在看：技术分享课程</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">🏫</span>
+                        <div>
+                            <h3>学校</h3>
+                            <p>长春职业技术大学</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <h3>所在地</h3>
+                            <p>吉林省长春市</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <div>
+                            <h3>邮箱</h3>
+                            <p>yao13578580763@outlook.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <p class="contact-note">如果您对我的能力和经历感兴趣，欢迎与我联系！</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 刘垚林 | 长春职业技术大学</p>
+    </footer>
+
+    <!-- 回到顶部按钮 -->
+    <button class="back-to-top" id="backToTop" onclick="scrollToTop()">↑</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
